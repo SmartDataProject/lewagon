@@ -20,6 +20,9 @@ class TestMathForDummies(unittest.TestCase):
 
     def test_multiply_minus_1_2(self):
         self.assertEqual(multiply(-1, 2), -2)
+    
+    def test_multiply_100_100(self):
+        self.assertEqual(multiply(100,100), 10000)
 
 if __name__ == '__main__':
     unittest.main()
